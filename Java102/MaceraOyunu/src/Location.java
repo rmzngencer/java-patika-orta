@@ -2,9 +2,8 @@ public abstract  class Location {
     private Player player;
     private String name;
     abstract boolean onLocation();
-   public Location(Player player, String name) {
-        this.player = player;
-        this.name = name;
+   public Location() {
+
     }
 
     public Player getPlayer() {
