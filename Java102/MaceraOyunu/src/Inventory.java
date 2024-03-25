@@ -1,4 +1,4 @@
-public class İnventory {
+public class Inventory {
     private boolean water;
     private boolean food;
     private boolean firewood;
@@ -7,15 +7,7 @@ public class İnventory {
     private String armorName;
     private int armorDefence;
 
-    public İnventory(boolean water, boolean food, boolean firewood, String weaponName, int weaponDamage, String armorName, int armorDefence) {
-        this.water = water;
-        this.food = food;
-        this.firewood = firewood;
-        this.weaponName = weaponName;
-        this.weaponDamage = weaponDamage;
-        this.armorName = armorName;
-        this.armorDefence = armorDefence;
-    }
+
 
     public boolean isWater() {
         return water;
