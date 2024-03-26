@@ -9,6 +9,7 @@ public class Inventory {
 
 
 
+
     public boolean isWater() {
         return water;
     }

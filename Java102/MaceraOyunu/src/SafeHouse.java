@@ -1,8 +1,9 @@
 public class SafeHouse extends NormalLoc{
 
 
-    public SafeHouse(Player player, String name) {
-        super(player, name);
+    public SafeHouse(Player player) {
+        super(player);
+        setName("Safe House");
     }
 
     @Override
