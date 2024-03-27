@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e149524f-2f60-4c1a-a32b-91aff5b114bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="004e6e6d-42e9-49ea-9051-869909f51bc8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java102.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/MaceraOyunu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/MaceraOyunu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/NormalLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/NormalLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/SafeHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/ToolStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/ToolStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,69 +28,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2eEuJMytCoP3EeXWfDAeWxmDKhS" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2eExiCuEhfNRGdfayHqatBxBiRJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MaceraOyunu&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ramazan/Desktop/patika-orta/java-patika-orta/Java102/MaceraOyunu&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "MaceraOyunu",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-25a4bffe" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e149524f-2f60-4c1a-a32b-91aff5b114bc" name="Changes" comment="" />
-      <created>1711481986118</created>
+      <changelist id="004e6e6d-42e9-49ea-9051-869909f51bc8" name="Changes" comment="" />
+      <created>1711483664422</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1711481986118</updated>
-      <workItem from="1711481987238" duration="5000" />
-      <workItem from="1711482108370" duration="493000" />
-      <workItem from="1711482638615" duration="7000" />
+      <updated>1711483664422</updated>
+      <workItem from="1711483665539" duration="3151000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="MaceraOyunu" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
