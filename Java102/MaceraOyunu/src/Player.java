@@ -1,23 +1,22 @@
 import java.util.Scanner;
 
 public class Player {
-    private String ID;
+
+    private String CharName;
     private String name;
     private Inventory inventory;
     private int health;
-
-    private int originalHealth;
     private int damage;
     private int monay;
+    private GameChar gameChar;
 
 
-    public Player(String ID, String name, Inventory inventory, int health,int originalHealth, int damage, int monay) {
-        this.ID = ID;
-        this.name = name;
-        this.health = health;
-        this.originalHealth = originalHealth;
-        this.damage = damage;
-        this.monay = monay;
+    public String getCharName() {
+        return CharName;
+    }
+
+    public void setCharName(String charName) {
+        CharName = charName;
     }
 
     public String getName() {
@@ -39,15 +38,13 @@ public class Player {
     public int getHealth() {
         return health;
     }
-    public int getOriginalHealth() {
-        return originalHealth;
-    }
+
     public void setHealth(int health) {
         this.health = health;
     }
 
     public int getDamage() {
-        return damage;
+        return damage+inventory.getWeapon().getDamage();
     }
 
     public void setDamage(int damage) {
@@ -58,39 +55,68 @@ public class Player {
         return monay;
     }
 
+    public GameChar getGameChar() {
+        return gameChar;
+    }
+
+    public void setGameChar(GameChar gameChar) {
+        this.gameChar = gameChar;
+    }
+
     public void setMonay(int monay) {
         this.monay = monay;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
+    public Player(String name) {
+        this.name = name;
+        inventory = new Inventory();
     }
 
-    public static Player selectCharacter(){
-        System.out.println("Select your character: ");
-        System.out.println("1. Knight");
-        System.out.println("2. Archer");
-        System.out.println("3. Samurai");
+    public void selectCharters() {
+        GameChar[] characters = {new Samurai(), new Archer(), new Knight()};
+        System.out.println("Select a character: ");
+        for(GameChar character : characters) {
+            character.toPrint();
+        }
 
-        Scanner scanner = new Scanner(System.in);
-        String character = scanner.nextLine();
+        System.out.println("Bir karekter seçmelisin:");
+        int selectChar = Game.scanner.nextInt();
+        while(selectChar < 1 || selectChar > 3) {
+            System.out.println("Geçersiz karakter seçimi. Lütfen tekrar seçin.");
+            selectChar = Game.scanner.nextInt();
+        }
 
-        switch (character){
-            case "1":
-                System.out.println("You have selected Knight");
-                return new Knight();
+        switch (selectChar) {
+            case 1:
+                initPlayer(characters[0]);
+                this.gameChar = characters[0];
+                break;
+            case 2:
+                initPlayer(characters[1]);
+                this.gameChar= characters[1];
+                break;
+            case 3:
+                initPlayer(characters[2]);
+                this.gameChar= characters[2];
 
-            case "2":
-                System.out.println("You have selected Archer");
-                return new Archer();
-            case "3":
-                System.out.println("You have selected Samurai");
-                return new Samurai();
+                break;
             default:
-                return null;
+                initPlayer(characters[0]);
+                this.gameChar= characters[2];
         }
 
     }
 
+    public void initPlayer(GameChar gameChar){
+        this.setCharName(gameChar.getName());
+        this.setDamage(gameChar.getDamage());
+        this.setHealth(gameChar.getHealth());
+        this.setMonay(gameChar.getMoney());
+        this.setInventory(new Inventory());
+    }
+
+
+    public void toPrint(){
+        System.out.println("karakteriniz : "+CharName+"\tHasarınız: "+getDamage()+"\tSağlığınız: "+health+"\tParanız: "+monay+"\tzırhınız: "+inventory.getArmor().getName()+"\tbloklama: "+inventory.getArmor().getProtect()+"\tsilahınız: "+inventory.getWeapon().getName());
+    }
 }

@@ -1,8 +1,21 @@
 public class Obstacle {
     private String name;
     private int damage;
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public Obstacle(String name, int damage, int health, int award) {
+        this.name = name;
+        this.damage = damage;
+        this.health = health;
+        this.award = award;
+    }
+
     private int health;
     private int award;
+
 
 
 

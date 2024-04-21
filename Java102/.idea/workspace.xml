@@ -5,56 +5,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004e6e6d-42e9-49ea-9051-869909f51bc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/Cave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/GameChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/River.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/MaceraOyunu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/MaceraOyunu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/BattleLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/BattleLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Forest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/NormalLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/NormalLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/SafeHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Samurai.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Samurai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/ToolStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/ToolStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Vampire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Zombie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2eExiCuEhfNRGdfayHqatBxBiRJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "MaceraOyunu",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MaceraOyunu&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-25a4bffe" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -67,10 +102,27 @@
       <option name="presentableId" value="Default" />
       <updated>1711483664422</updated>
       <workItem from="1711483665539" duration="3151000" />
+      <workItem from="1711620336672" duration="5906000" />
+      <workItem from="1711735332780" duration="4891000" />
+      <workItem from="1711796461141" duration="2993000" />
+      <workItem from="1711816175176" duration="18000" />
+      <workItem from="1711872959782" duration="7448000" />
+      <workItem from="1712577571020" duration="4886000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
