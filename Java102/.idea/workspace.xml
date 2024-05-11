@@ -5,31 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004e6e6d-42e9-49ea-9051-869909f51bc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/Cave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/GameChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/Maden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaceraOyunu/src/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Archer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/BattleLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/BattleLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Cave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Forest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/NormalLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/NormalLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Obstacle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/SafeHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/SafeHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Samurai.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Samurai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/ToolStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/ToolStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Vampire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaceraOyunu/src/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaceraOyunu/src/River.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +73,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +93,8 @@
       <workItem from="1711816175176" duration="18000" />
       <workItem from="1711872959782" duration="7448000" />
       <workItem from="1712577571020" duration="4886000" />
+      <workItem from="1713710436909" duration="5319000" />
+      <workItem from="1715417697742" duration="5405000" />
     </task>
     <servers />
   </component>

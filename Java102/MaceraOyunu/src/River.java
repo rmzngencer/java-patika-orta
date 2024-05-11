@@ -10,4 +10,12 @@ public class River extends BattleLoc {
         System.out.print("şimdi nehirdesiniz ve canavarınız "+getObstacle().getName());
         return false;
     }
+    @Override
+    public void givePrize() {
+        System.out.println("Mağaradan çıktınız ve su kazandınız");
+
+
+        getPlayer().getInventory().setWater(true);
+
+    }
 }

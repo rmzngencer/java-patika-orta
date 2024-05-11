@@ -13,7 +13,7 @@ public class Game {
         Player player = new Player("Player1");
         System.out.println("Merhaba " + player.getName() + " burada kaderini sen belirliyorsun. unutma, burda her kararın bir sonucu var.");
         player.selectCharters();
-        Location[] locations = {new SafeHouse(player), new ToolStore(player), new Cave(player), new Forest(player), new River(player)};
+        Location[] locations = {new SafeHouse(player), new ToolStore(player), new Cave(player), new Forest(player), new River(player), new Maden(player)};
         while (true){
             player.toPrint();
             System.out.println("»»»»Haritada Bulunan Lokasyonlar: ");
@@ -23,8 +23,8 @@ public class Game {
 
             System.out.println("Bir lokasyon seçmelisin:");
             int selectLoc = scanner.nextInt();
-            while(selectLoc < 1 || selectLoc > 5) {
-                System.out.println("Geçersiz lokasyon seçimi. güvenli bölgeye girsiniz.");
+            while(selectLoc < 1 || selectLoc > 6) {
+                System.out.println("Geçersiz lokasyon seçimi. güvenli bölgeye girdiniz.");
                 selectLoc = scanner.nextInt();
             }
 
@@ -43,6 +43,9 @@ public class Game {
                     break;
                 case 5:
                     locations[4].onLocation();
+                    break;
+                case 6:
+                    locations[5].onLocation();
                     break;
                 default:
                     locations[0].onLocation();
