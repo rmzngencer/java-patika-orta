@@ -1,5 +1,5 @@
-public class Knight extends Player {
+public class Knight extends GameChar {
     public Knight() {
-        super("3", "Knight", new Inventory(), 24,24, 8, 5);
+        super(3, "Şovalye", 8,24, 5);
     }
 }

@@ -1,14 +1,12 @@
 public abstract class NormalLoc extends Location {
 
 
-    public NormalLoc(Player player, String name) {
-        super();
+    public NormalLoc(Player player) {
+        super( player);
     }
 
     @Override
-    public boolean onLocation() {
-        return true;
-    }
+    abstract boolean onLocation();
 
 
 }

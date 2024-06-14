@@ -1,5 +1,6 @@
 public class Zombie extends Obstacle{
-    public Zombie(String name, int damage, int health, int award) {
+    public Zombie() {
+        super("zombi",3,10,4);
 
     }
 }

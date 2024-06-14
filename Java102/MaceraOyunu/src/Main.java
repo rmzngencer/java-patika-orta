@@ -6,7 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Player player = Player.selectCharacter();
+       Game game = new Game();
+       game.StartGame();
+
 
 
 

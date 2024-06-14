@@ -2,12 +2,24 @@ public class Inventory {
     private boolean water;
     private boolean food;
     private boolean firewood;
-    private String weaponName;
-    private int weaponDamage;
-    private String armorName;
-    private int armorDefence;
+    private  Weapons weapon=new Weapons(0,"yumruk", 0, 0);
+    private Armors armor =  new Armors(0,"tişört", 0, 0);;
 
+    public Weapons getWeapon() {
+        return weapon;
+    }
 
+    public void setWeapon(Weapons weapon) {
+        this.weapon = weapon;
+    }
+
+    public void setArmor(Armors armor) {
+        this.armor = armor;
+    }
+
+    public Armors getArmor() {
+        return armor;
+    }
 
     public boolean isWater() {
         return water;
@@ -33,35 +45,6 @@ public class Inventory {
         this.firewood = firewood;
     }
 
-    public String getWeaponName() {
-        return weaponName;
-    }
 
-    public void setWeaponName(String weaponName) {
-        this.weaponName = weaponName;
-    }
-
-    public int getWeaponDamage() {
-        return weaponDamage;
-    }
-
-    public void setWeaponDamage(int weaponDamage) {
-        this.weaponDamage = weaponDamage;
-    }
-
-    public String getArmorName() {
-        return armorName;
-    }
-
-    public void setArmorName(String armorName) {
-        this.armorName = armorName;
-    }
-
-    public int getArmorDefence() {
-        return armorDefence;
-    }
-
-    public void setArmorDefence(int armorDefence) {
-        this.armorDefence = armorDefence;
-    }
 }
+

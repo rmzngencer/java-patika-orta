@@ -1,11 +1,13 @@
 public abstract  class Location {
+    private  int Id;
     private Player player;
     private String name;
-    abstract boolean onLocation();
-   public Location() {
 
+   public Location(Player player){
+
+       this.player = player;
     }
-
+    abstract boolean onLocation();
     public Player getPlayer() {
         return player;
     }
@@ -16,6 +18,14 @@ public abstract  class Location {
 
     public String getName() {
         return name;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
     }
 
     public void setName(String name) {
